@@ -6,18 +6,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 id="head"> React Countdown</h1>
       </header>
+      <div id="Countdown">
+        <ul>
+          <li><span>00</span>Days</li>
+          <li><span>00</span>Hours</li>
+          <li><span>00</span>Days</li>
+          <li><span>00</span>Seconds</li>
+        </ul>
+      </div>
     </div>
   );
 }

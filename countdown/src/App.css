@@ -31,6 +31,10 @@
   padding:1em;
   text-transform: uppercase;
 }
+#Countdown span {
+  display: block;
+  font-size: 4.5rem;
+}
 
 @keyframes App-logo-spin {
   from {

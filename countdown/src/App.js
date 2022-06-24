@@ -12,10 +12,12 @@ class App extends React.Component {
     this.startInterval()
   }
   startInterval = () => {
+   
     const second = 1000, minute = second * 60, hour = minute * 60, day = hour* 24
+    let distance = new Date("Fri Jun 28 2022 16:21:48 GMT-0400") - new Date().getTime()
     let x = setInterval(
       function (){
-       document.getElementById("days").innerText = "00"
+       document.getElementById("days").innerText = Math.floor(distance / day)
        document.getElementById("hours").innerText = "00"
        document.getElementById("minutes").innerText = "00"
        document.getElementById("seconds").innerText = "00"

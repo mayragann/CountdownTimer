@@ -44,3 +44,17 @@
     transform: rotate(360deg);
   }
 }
+button {
+  background: transparent;
+  border: 2px solid rgb(9, 9, 9);
+  color: rgb(0, 0, 0);
+  padding: 0.4rem 0.5rem;
+  margin:15px;
+
+}
+
+button:hover {
+  background: rgba(232, 84, 84, 0.466);
+  color: #024aff;
+  cursor: pointer;
+}

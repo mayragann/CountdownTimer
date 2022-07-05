@@ -8,7 +8,7 @@ function MyStopwatch() {
             <h1> React-Timer-Hook</h1>
             <p>Stopwatch Demo</p>
             <div style={{fontSize: '100px'}}>
-            <span>{days}</span>:<span>{hours}</span>:<span>{minutes}</span>:<span>{seconds}</span>
+            <span>{days}:{hours}:{minutes}:{seconds}</span>
             </div>
             <p>{isRunning ? 'Running' : 'Not running'}</p>
             <button on onClick={start}>Start</button>

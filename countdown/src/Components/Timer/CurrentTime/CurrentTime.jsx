@@ -9,7 +9,7 @@ function MyTime() {
             <h1> React-Timer-Hook</h1>
             <p>Current Time Demo</p>
             <div style={{fontSize: '100px'}}>
-            <span>{hours}</span>:<span>{minutes}</span>:<span>{seconds}</span><span>{ampm}</span>
+            <span>{hours}:{minutes}:{seconds} {ampm}</span>
             </div>
         </div>
         );

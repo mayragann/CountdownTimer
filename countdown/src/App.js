@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import MyTimer from './Components/Timer/Timer';
 import MyStopwatch from './Components/Timer/Stopwatch/Stopwatch';
-import MyTime from './Components/Timer/CurrentTime/CurrentTime'
+import MyTime from './Components/Timer/CurrentTime/CurrentTime';
+
 
 function App() {
   const time = new Date();
@@ -12,7 +13,7 @@ function App() {
   const [toggleCurrent, setToggleCurrent] = useState(true)
 
   return (
-    <div>
+    <div className='container'>
       <button onClick={() => setToggleTimer(!toggleTimer)} className="btn-btn-primary mb-5">My Timer</button>
       {toggleTimer && (
       <MyTimer expiryTimestamp={time} />
